@@ -1,0 +1,44 @@
+.topBar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  z-index: 5;
+  background-color: #4cc95e;
+  -webkit-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.19);
+  .title {
+    .name {
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+    }
+    .ano {
+      font-size: 18px;
+      display: flex;
+      justify-content: flex-end;
+
+      p {
+        color: rgb(7, 254, 180);
+      }
+      .num {
+        padding-left: 5px;
+      }
+    }
+    .extra {
+      font-size: 10px;
+      color: rgb(14, 14, 14);
+      padding: 0 2rem 0 2rem;
+      font-weight: 800;
+    }
+  }
+
+  > a {
+    margin-left: 10px;
+    > img {
+      width: 16rem;
+    }
+  }
+}

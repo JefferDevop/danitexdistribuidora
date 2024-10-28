@@ -1,0 +1,52 @@
+.listProduct {
+  width: 100%;
+  margin-top: 8rem;
+  h4 {
+    text-transform: uppercase;
+    margin: 0.5rem;
+  }
+}
+
+.list {
+  padding: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+
+
+  button {
+    width: 95% !important;
+    background-color: #ffd814;
+    border: none;
+    color: black;
+    margin: 0.2rem 0;
+  }
+
+  &__product {
+    img {
+      border-radius: 0.5rem;
+      object-fit: cover;
+      object-position: center center;
+      aspect-ratio: 1/1;
+    }
+
+    .title {
+      padding: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .price {
+      h5 {
+        font-size: 0.9rem;
+        color: #fd384f;
+        font-weight: 800;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }    
+    }
+
+    h5 {
+      font-size: 0.8rem;
+    }
+  }
+}
