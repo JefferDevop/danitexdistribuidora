@@ -69,7 +69,7 @@ export function FooterApp() {
         </div>
 
         <BtnLink
-          link={"https://danitexdistribuidora.catalogointeractivo.com.co/admin-dashboard/"}
+          link={"https://danitexdistribuidora.conexion.bar/admin-dashboard/"}
           title={"ADMI"}
           logo={<CiUser size={20} />}
         />
