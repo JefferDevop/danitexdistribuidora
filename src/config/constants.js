@@ -1,5 +1,5 @@
 export const BASE_API =
-  "https://danitexdistribuidora.conexion.bar";
+  "https://danitexdistribuidora.cosmoqa.store";
 
 export const SEARCH_HISTORY = "search-history";
 export const CART = "cart";
